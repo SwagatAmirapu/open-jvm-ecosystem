@@ -1,3 +1,18 @@
+Markdown
+# ⚡ Local Setup & Execution Guide
+1. Fire Up The Backend Server
+Bash
+cd backend
+./mvnw clean spring-boot:run
+The endpoint gateway handles JSON payloads on port 8080.
+
+2. Launch The Interactive HUD
+Bash
+cd frontend
+npm install
+npm run dev
+Open your browser to the local Vite portal at http://localhost:5173 (or http://localhost:5174) to start cooking code lines!
+
 # 🍳 Open Kitchen // Interactive Java JVM Bytecode Studio
 
 A beautiful, dark-mode educational development studio built to deconstruct the **Java Virtual Machine (JVM)** compilation pipeline. This ecosystem lets users type high-level Java code and interactively step through lexical analysis, intermediate bytecode down-compilation, and active operand stack frame state transitions in real time.
@@ -46,29 +61,3 @@ open-jvm-ecosystem/
 │   │   └── BytecodePanel.jsx # Assembly Line Tracker & Instructions Walker
 │   └── index.html
 └── .gitignore
-
-⚡ Local Setup & Execution Guide
-1. Fire Up The Backend Server
-Bash
-cd backend
-./mvnw clean spring-boot:run
-The endpoint gateway handles JSON payloads on port 8080.
-
-2. Launch The Interactive HUD
-Bash
-cd frontend
-npm install
-npm run dev
-Open your browser to the local Vite portal at http://localhost:5173 (or 5174) to start cooking code lines!
-
-
----
-
-## 🚀 Push the Polish!
-
-Save that file and run one quick terminal push to update your profile:
-
-```bash
-git add README.md
-git commit -m "docs: implement comprehensive project documentation guide layout"
-git push origin main
