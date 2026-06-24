@@ -1,0 +1,16 @@
+# Frontend Dependency Traps
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+
+# Backend Build & System Outputs
+backend/target/
+backend/.mvn/
+*.class
+*.jar
+
+# IDE & OS Specific junk
+.JSX_Caches/
+.DS_Store
+.vscode/
+.idea/
