@@ -1,9 +1,14 @@
 # ⚡ Local Setup & Execution Guide
+
+---
+
 1. Fire Up The Backend Server
 Bash
 cd backend
 ./mvnw clean spring-boot:run
 The endpoint gateway handles JSON payloads on port 8080.
+
+---
 
 2. Launch The Interactive HUD
 Bash
@@ -11,6 +16,8 @@ cd frontend
 npm install
 npm run dev
 Open your browser to the local Vite portal at http://localhost:5173 (or http://localhost:5174) to start cooking code lines!
+
+---
 
 # 🍳 Open Kitchen // Interactive Java JVM Bytecode Studio
 
