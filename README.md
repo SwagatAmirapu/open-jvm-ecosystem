@@ -1,4 +1,3 @@
-Markdown
 # ⚡ Local Setup & Execution Guide
 1. Fire Up The Backend Server
 Bash
