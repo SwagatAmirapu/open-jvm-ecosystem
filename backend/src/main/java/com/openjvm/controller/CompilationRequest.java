@@ -1,12 +1,14 @@
 package com.openjvm.controller;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
-
-@Data
-@AllArgsConstructor
-@NoArgsConstructor
 public class CompilationRequest {
     private String sourceCode;
+
+    public CompilationRequest() {}
+
+    public CompilationRequest(String sourceCode) {
+        this.sourceCode = sourceCode;
+    }
+
+    public String getSourceCode() { return sourceCode; }
+    public void setSourceCode(String sourceCode) { this.sourceCode = sourceCode; }
 }
