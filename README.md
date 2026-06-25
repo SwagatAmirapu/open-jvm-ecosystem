@@ -185,22 +185,6 @@ Simulates JVM execution semantics, including:
 
 Captures runtime snapshots after every instruction, enabling deterministic replay and visualization.
 
----
-
-## 📸 Screenshots
-
-Add screenshots or animated GIF demonstrations here.
-
-```md
-![Editor](docs/editor.png)
-
-![Bytecode Viewer](docs/bytecode.png)
-
-![Runtime Simulation](docs/runtime.png)
-```
-
----
-
 ## 🎯 Learning Objectives
 
 This project was built to deepen understanding of:
@@ -222,9 +206,3 @@ Contributions, suggestions, and improvements are welcome.
 2. Create a feature branch
 3. Commit your changes
 4. Open a Pull Request
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License.
