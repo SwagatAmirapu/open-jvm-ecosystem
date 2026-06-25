@@ -1,9 +1,14 @@
-🍳 Open Kitchen // Interactive Java JVM Bytecode Studio
-A beautiful, dark-mode educational development studio built to deconstruct the Java Virtual Machine (JVM) compilation pipeline. This ecosystem lets users type high-level Java code and interactively step through lexical analysis, intermediate bytecode down-compilation, and active operand stack frame state transitions in real time.
+Markdown
+# 🍳 Open Kitchen // Interactive Java JVM Bytecode Studio
 
-⚡ Local Setup & Execution Guide
-1. Fire Up The Backend Server
-Bash
+A beautiful, dark-mode educational development studio built to deconstruct the **Java Virtual Machine (JVM)** compilation pipeline. This ecosystem lets users type high-level Java code and interactively step through lexical analysis, intermediate bytecode down-compilation, and active operand stack frame state transitions in real time.
+
+---
+
+## ⚡ Local Setup & Execution Guide
+
+### 1. Fire Up The Backend Server
+```bash
 cd backend
 ./mvnw clean spring-boot:run
 The endpoint gateway handles JSON payloads on port 8080.
