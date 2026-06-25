@@ -1,8 +1,8 @@
-# 🍳 Open Kitchen — Interactive Java JVM Bytecode Studio
+# 🍳 OpenJVM Studio — Interactive Java JVM Bytecode Studio
 
 > An educational platform for exploring how Java code is transformed and executed inside the Java Virtual Machine (JVM).
 
-Open Kitchen is a full-stack visualization studio that enables developers and students to write Java code and interactively observe each stage of the JVM execution pipeline. The platform deconstructs JVM internals by exposing lexical analysis, bytecode generation, execution flow, operand stack mutations, and local variable state transitions in real time.
+OpenJVM Studio is a full-stack visualization studio that enables developers and students to write Java code and interactively observe each stage of the JVM execution pipeline. The platform deconstructs JVM internals by exposing lexical analysis, bytecode generation, execution flow, operand stack mutations, and local variable state transitions in real time.
 
 ---
 
