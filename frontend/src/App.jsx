@@ -87,7 +87,7 @@ export default function App() {
           <div className="flex items-center gap-3">
             <div className="h-2.5 w-2.5 rounded-full bg-emerald-400 shadow-[0_0_8px_#34d399] animate-pulse" />
             <h1 className="text-sm font-mono font-black tracking-widest uppercase bg-gradient-to-r from-emerald-400 to-cyan-400 bg-clip-text text-transparent">
-              Open Kitchen // Source To Bytecode Cooking
+              OpenJVM Studio // Source To Bytecode
             </h1>
           </div>
           {executionFrames.length > 0 && (
